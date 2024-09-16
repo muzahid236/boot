@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login page</title>
+</head>
+<body>
+    <h1>Create a new account</h1>
+    
+   <form id="form" action="login.html" method="get">
+    <div id="error"></div>
+    <div>
+         <label id="na" for="Name">Name:</label>
+         <input placeholder="Enter your valid name" id="name" type="text" name="name">
+    </div>
+
+    <div>
+        <label id="pas" for="Password">Password:</label>
+        <input  placeholder="Enter your password" id="password" type="password" name="name">
+   </div>
+
+   <div>
+    <label id="cn" for="Confirm password">Confirm password:</label>
+    <input placeholder="Enter your confirm password" id="cn-password" type="password" name="name">
+   
+</div>
+<button  type="submit" >Login</button>
+   
+   </form>
+
+
+
+<script src="index.js"></script>
+  
+</body>
+</html>
